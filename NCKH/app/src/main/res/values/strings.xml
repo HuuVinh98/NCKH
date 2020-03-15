@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Amana</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="ph">pH</string>
+    <string name="nh3">NH3</string>
+    <string name="status">Status</string>
+    <string name="textview">TextView</string>
+    <string name="i_wifi">Đổi Wifi</string>
+
+</resources>

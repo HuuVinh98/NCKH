@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0fff0"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvGioihan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="Giới hạn hiện tại" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_weight="1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/tvTop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_weight="1" />
+
+    <EditText
+        android:id="@+id/gioihantren"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Giới hạn trên"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gioihanduoi"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Giới hạn dưới"
+        android:inputType="numberDecimal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/thietlap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:text="Đặt Lại Giá trị" />
+
+    <Button
+        android:id="@+id/macdinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="25dp"
+        android:text="Giá Trị Mặc định" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Trở Lại" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
